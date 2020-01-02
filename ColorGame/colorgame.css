@@ -1,0 +1,94 @@
+body{
+    background-color: #232323;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{
+    outline: none;
+    font-family: 'Montserrat', 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.square{
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    cursor: pointer;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.1;
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+
+#colorDisplay{
+    display: block;
+    font-size: 200%;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+#stripe{
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+}
+
+.selected{
+    background-color: steelblue;
+    color: #fff;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: steelblue;
+    color: #fff;
+    
+}
+
+footer {
+    position: absolute;
+    width: 20%;
+    background: rgb(110, 104, 116, 0.1);
+    right: 0;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 15px;
+}
