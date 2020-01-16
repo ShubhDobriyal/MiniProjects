@@ -14,7 +14,7 @@ $('.todo-form input').keypress(function (e) {
     if(e.which === 13){
         var todoText = $(this).val();
         $(this).val('');
-        $('.todo-list ul').append('<li><span class="delete-btn"><i class="fas fa-trash-alt"></i></span>'+ todoText +'</li>');
+        $('.todo-list ul').append('<li><span class="delete-btn"><i class="fas fa-trash-alt"></i></span> <span class="todo-text">'+ todoText +'</span></li>');
     }
 });
 
